@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5rem;
+    align-items: center;
+    
+    
+}.depot{
+    width: 10%;
+}
+.depot img{
+    width: 100%;
+}
+header a{
+    color:#080808;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.first{
+    text-align: center;
+    background-image: url(https://pyxis.nymag.com/v1/imgs/838/cee/5c9219f237fdba95b1da279574058c36ad-coffee-table.2x.rsocial.w600.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 15rem ;
+    margin:0px 5rem ;
+}
+
+.first h3{
+    color:#080808;
+    font-size: 30px;
+}
+.first p{
+    padding-top:10px;
+    color:#080808;
+    font-size: 16px;
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 5rem;
+
+
+}
+.nav a{
+    color:#929292;
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav a:hover{
+    color:#080808;
+    font-size: 18px;
+}
+
+.mainbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 5rem;
+
+    
+    
+
+}
+.mainbox .box{
+    width: 25%;
+    padding:25px 20px;
+    
+    
+
+}
+.mainbox .box .img img{
+    width: 100%;
+    
+}
+.mainbox .box .info {
+    text-align: center;
+    padding:20px 0px ;
+
+}
+.mainbox .box .info a{
+    font-size: 14px;
+    color: #080808;
+    letter-spacing: 2px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    margin:70px 5rem;
+    text-align: center;
+
+    
+}
+.end .colum{
+    width: 25%;
+}
+.end .colum ul{
+ list-style: none;
+ padding: 20px 0px;
+}
+.end .colum ul li{
+    padding: 5px 0px;
+    color:#929292;
+    font-size: 12px;
+}
+.end .colum h4{
+    color:#080808;
+    font-size: 16px;
+}
+
